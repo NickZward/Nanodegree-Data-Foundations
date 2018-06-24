@@ -30,3 +30,5 @@ After completing the lessons and the project, I feel comfortable in my ability t
 [Link to report](https://github.com/NickZward/Nanodegree-Data-Foundations/blob/master/Project%202/Report.pdf)
 
 [Data used](https://github.com/NickZward/Nanodegree-Data-Foundations/blob/master/Project%202/Data%20project%202.xlsx)
+
+### Project 3: Query a Digital Music Store Database
