@@ -14,4 +14,4 @@ After completing the lessons and the project, I feel comfortable in my ability t
 
 [Link to report]
 
-[Data used]
+[Data used](https://github.com/NickZward/Nanodegree-Data-Foundations/blob/master/Project%202/Data%20project%202.xlsx)
