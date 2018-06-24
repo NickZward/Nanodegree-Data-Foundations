@@ -10,6 +10,7 @@ There were two goals for this first project:
 - Glimpse into your future. By the end of this program, you will not only be able to draw conclusions from these dashboards, but you will be able to build dashboards for yourself just like the ones you see here in the first project!
 
 [Link to report]
+[Data used](https://public.tableau.com/en-us/s/gallery/malaria-africa?gallery=featured)
 
 ### Project 2: Analyze Survey Data
 
