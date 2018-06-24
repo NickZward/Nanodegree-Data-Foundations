@@ -27,6 +27,6 @@ After completing the lessons and the project, I feel comfortable in my ability t
 - Be comfortable posing questions that can be answered with a given dataset and then answering those questions.
 - Analyze a future dataset using Excel.
 
-[Link to report]
+[Link to report](https://github.com/NickZward/Nanodegree-Data-Foundations/blob/master/Project%202/Report.pdf)
 
 [Data used]
