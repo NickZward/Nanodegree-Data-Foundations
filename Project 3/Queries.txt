@@ -1,0 +1,51 @@
+/* Query 1 */
+SELECT  Artist.Name, COUNT(Track.TrackId) AS Songs
+FROM Artist
+JOIN Album
+ON Artist.ArtistId = Album.ArtistId
+JOIN Track
+ON Album.AlbumId = Track.AlbumId
+JOIN Genre
+ON Track.GenreId = Genre.GenreId
+WHERE Genre.name = 'Rock'
+GROUP BY Artist.name
+ORDER BY Songs DESC
+LIMIT 10;
+
+/* Query 2 */
+SELECT Customer.FirstName || ' ' || Customer.LastName AS CustomerName, SUM(Invoice.Total) AS TotalMoneySpent
+FROM Customer
+JOIN Invoice
+ON Invoice.CustomerId = Customer.CustomerId
+GROUP BY 1
+ORDER BY TotalMoneySpent DESC
+LIMIT 5;
+
+/* Query 3 */
+WITH t1 AS (SELECT Customer.FirstName || ' ' || Customer.LastName AS CustomerName, SUM(Invoice.Total) AS TotalSpent,
+CASE WHEN SUM(Invoice.Total) > 45 THEN 'top'
+WHEN SUM(Invoice.Total) > 38 THEN 'middle'
+ELSE 'low' END AS CustomerLevel
+FROM Customer
+JOIN Invoice
+ON Invoice.CustomerId = Customer.CustomerId
+GROUP BY CustomerName
+ORDER BY TotalSpent DESC)
+
+SELECT CustomerLevel, COUNT(CustomerLevel)
+FROM t1
+GROUP BY 1
+ORDER BY 2 DESC;
+
+/* Query 4 */
+SELECT Artist.name, SUM(InvoiceLine.UnitPrice * InvoiceLine.Quantity) AS AmountEarned
+FROM Artist
+JOIN Album
+ON Artist.ArtistId = Album.ArtistId
+JOIN Track
+ON Album.AlbumId = Track.AlbumId
+JOIN InvoiceLine
+ON Track.TrackId = InvoiceLine.TrackId
+GROUP BY Artist.Name
+ORDER BY AmountEarned DESC
+LIMIT 5;
