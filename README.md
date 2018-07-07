@@ -48,5 +48,7 @@ After finishing this project I felt comfortable using:
 
 [Database used](https://github.com/NickZward/Nanodegree-Data-Foundations/blob/master/Project%203/chinook.db)
 
-[Queries used]
+[Queries used](https://github.com/NickZward/Nanodegree-Data-Foundations/blob/master/Project%203/Queries.txt)
+
+### Project 4: Data Visualization Using Tableau
 
