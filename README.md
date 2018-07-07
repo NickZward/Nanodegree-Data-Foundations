@@ -45,3 +45,6 @@ After finishing this project I felt comfortable using:
 - Cleaning data using SQL ( LEFT, RIGHT, POSITION, STRPOS, CONCAT, CAST, COALESCE).
 
 [Link to report]
+[Database used]
+[Queries used]
+
