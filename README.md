@@ -45,6 +45,8 @@ After finishing this project I felt comfortable using:
 - Cleaning data using SQL ( LEFT, RIGHT, POSITION, STRPOS, CONCAT, CAST, COALESCE).
 
 [Link to report]
-[Database used]
+
+[Database used](https://github.com/NickZward/Nanodegree-Data-Foundations/blob/master/Project%203/chinook.db)
+
 [Queries used]
 
