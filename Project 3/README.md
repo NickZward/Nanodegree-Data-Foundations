@@ -11,4 +11,8 @@ After finishing this project I felt comfortable using:
 - Using SQL subqueries and temporary tables.
 - Cleaning data using SQL ( LEFT, RIGHT, POSITION, STRPOS, CONCAT, CAST, COALESCE).
 
-[Link to report]
+[Link to report](https://github.com/NickZward/Nanodegree-Data-Foundations/blob/master/Project%203/Report.pdf)
+
+[Database used](https://github.com/NickZward/Nanodegree-Data-Foundations/blob/master/Project%203/chinook.db)
+
+[Queries used](https://github.com/NickZward/Nanodegree-Data-Foundations/blob/master/Project%203/Queries.txt)
