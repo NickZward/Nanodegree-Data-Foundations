@@ -1,5 +1,5 @@
 # [Udacity Data Foundations Nanodegree](https://eu.udacity.com/course/data-foundations-nanodegree--nd100)
-Projects for my Udacity Data Foundations Nanodegree
+Projects for my [Udacity Data Foundations Nanodegree](https://eu.udacity.com/course/data-foundations-nanodegree--nd100)
 
 ### Project 1: Interpret a Data Visualization
 
