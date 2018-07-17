@@ -52,3 +52,6 @@ After finishing this project I felt comfortable using:
 
 ### Project 4: Data Visualization Using Tableau
 
+[Link to report]
+
+[Database used]
