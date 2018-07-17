@@ -62,4 +62,4 @@ In order to see the visualizations I made in Tableau, you need to click on the l
 
 [Database used](https://github.com/NickZward/Nanodegree-Data-Foundations/blob/master/Project%204/flight-delays.zip)
 
-![Udacity Data Foundations Nanodegree certificate](certificate.png)
+![Udacity Data Foundations Nanodegree certificate](Certificate.png)
